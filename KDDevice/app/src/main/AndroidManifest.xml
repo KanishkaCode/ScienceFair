@@ -36,7 +36,8 @@
             android:name=".Instructs"
             android:screenOrientation="portrait" />
         <activity android:name=".SingleLocationView" />
-        <activity android:name=".LocationListActivty"></activity>
+        <activity android:name=".LocationListActivty" />
+        <activity android:name=".Firstpage"></activity>
     </application>
 
 </manifest>

@@ -21,12 +21,12 @@ public class LocoNearby extends AppCompatActivity {
         latitude = getIntent().getDoubleExtra("LATTITUDE", 0.0);
         longitude = getIntent().getDoubleExtra("LONGITUDE", 0.0);
 
-        Button btnGasStation = (Button) findViewById(R.id.GasStationbtn);
-        btnGasStation.setOnClickListener(new View.OnClickListener() {
+        Button Bankbtn = (Button) findViewById(R.id.Bankbtn);
+        Bankbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
             if (latitude > 0) {
-                getLocation("gas_station");
+                getLocation("bank");
             }
             }
         });
