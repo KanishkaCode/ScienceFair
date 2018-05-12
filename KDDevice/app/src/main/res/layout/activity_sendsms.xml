@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="930px"
+    android:layout_height="1250px"
+    tools:context="com.dhs.kddevice.kddevice.SendSMSActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="438dp"
+        android:layout_height="597dp"
+        android:background="#90CAF9"
+        android:fontFamily="serif-monospace"
+        android:text="                          Sending SMS..."
+        android:textSize="45sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="14dp" />
+</android.support.constraint.ConstraintLayout>

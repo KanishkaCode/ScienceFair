@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dhs.kddevice.kddevice.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/Main_Layout"
+        android:layout_width="356dp"
+        android:layout_height="411dp"
+        android:orientation="vertical"
+        android:weightSum="1"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="80dp">
+
+        <Button
+            android:id="@+id/Nearbybtn"
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:background="#0D47A1"
+            android:text="       Nearby Locations" />
+
+        <Button
+            android:id="@+id/buttonlocation"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="326dp"
+            android:layout_height="260dp"
+            android:layout_weight="0.19"
+            android:background="#90CAF9"
+            android:text="Click to Find Location"
+            tools:layout_editor_absoluteX="-446dp"
+            tools:layout_editor_absoluteY="8dp" />
+
+        <Button
+            android:id="@+id/Instructbtn"
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:background="#0D47A1"
+            android:text="Instructions" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/AddNumbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#90CAF9"
+        android:text="Contacts"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="16dp" />
+</android.support.constraint.ConstraintLayout>
