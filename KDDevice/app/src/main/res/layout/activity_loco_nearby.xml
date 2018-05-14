@@ -8,8 +8,8 @@
 
     <Button
         android:id="@+id/Hospitalbtn"
-        android:layout_width="407dp"
-        android:layout_height="192dp"
+        android:layout_width="356dp"
+        android:layout_height="130dp"
         android:background="#0198E1"
         android:fontFamily="serif-monospace"
         android:text="Hospitals"
@@ -18,15 +18,16 @@
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.404"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.907" />
+        app:layout_constraintVertical_bias="0.665" />
 
     <Button
         android:id="@+id/Bankbtn"
-        android:layout_width="403dp"
-        android:layout_height="206dp"
+        android:layout_width="356dp"
+        android:layout_height="130dp"
         android:background="#90CAF9"
         android:fontFamily="serif-monospace"
         android:text="Banks"
@@ -34,15 +35,15 @@
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/Hospitalbtn"
+        app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/Restaurantsbtn"
-        app:layout_constraintVertical_bias="0.488" />
+        app:layout_constraintTop_toTopOf="@+id/Restaurantsbtn" />
 
     <Button
         android:id="@+id/Restaurantsbtn"
-        android:layout_width="400dp"
-        android:layout_height="191dp"
+        android:layout_width="356dp"
+        android:layout_height="130dp"
         android:background="#0198E1"
         android:fontFamily="serif-monospace"
         android:text="Restaurants"
@@ -50,7 +51,20 @@
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintVertical_chainStyle="spread_inside"
-        tools:layout_editor_absoluteX="4dp"
-        tools:layout_editor_absoluteY="27dp" />
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="31dp" />
+
+    <Button
+        android:id="@+id/Grocerybtn"
+        android:layout_width="356dp"
+        android:layout_height="130dp"
+        android:background="#90CAF9"
+        android:fontFamily="serif-monospace"
+        android:text="Grocery Stores"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="421dp" />
 
 </android.support.constraint.ConstraintLayout>

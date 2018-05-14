@@ -31,6 +31,15 @@ public class LocoNearby extends AppCompatActivity {
             }
         });
 
+        Button Grocerybtn = (Button) findViewById(R.id.Grocerybtn);
+        Grocerybtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (latitude > 0) {
+                    getLocation("supermarket");
+                }
+            }
+        });
         Button btnRestaurant = (Button) findViewById(R.id.Restaurantsbtn);
         btnRestaurant.setOnClickListener(new View.OnClickListener() {
             @Override
